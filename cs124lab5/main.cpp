@@ -80,7 +80,7 @@ class stack{
             otherStack.size = this->size;
             otherStack.Stack = new T[this->size];
             for(int i = top; i >= 0; --i)
-                otherStack.insert(this->Stack[i]);   
+                otherStack.push(this->Stack[i]);   
         }
 
 };
